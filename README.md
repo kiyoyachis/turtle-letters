@@ -5,7 +5,7 @@ Eli: W, Q, X, K, M, N
 
 Lauren: C, D, E, F, G, L
 
-Mulan: J, S, T, U, V, Y
+Mulan: J, S, T, U, V, Y (done)
 
 lets go lads
 
