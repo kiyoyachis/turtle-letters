@@ -142,6 +142,7 @@ def turtleLetter(letter,tur):
 	    pass
     elif letter == "Y":
         tur.setheading(300)
+	tur.pd()
         tur.fd(20)
         tur.right(30)
         tur.fd(12)
