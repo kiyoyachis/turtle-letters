@@ -39,15 +39,81 @@ def turtleLetter(letter,tur):
     elif letter == "B":
 	    pass
     elif letter == "C":
-	    pass
+	tur.setheading(150)
+        tur.pd()
+        tur.circle(20,250)
+        tur.pu()
+        tur.setheading(180)
+        tur.fd(40)
+        tur.setheading(90)
+        tur.fd(50)
+        tur.setheading(0)
+        tur.fd(40)
     elif letter == "D":
-	    pass
+	tur.setheading(270)
+        tur.pd()
+        tur.fd(40)
+        tur.setheading(0)
+        tur.circle(20,180)
+        tur.pu()
+        tur.setheading(0)
+        tur.fd(20)
     elif letter == "E":
-	    pass
+	tur.pd()
+        tur.fd(20)
+        tur.pu()
+        tur.setheading(180)
+        tur.fd(20)
+        tur.setheading(270)
+        tur.pd()
+        tur.fd(30)
+        tur.setheading(0)
+        tur.fd(20)
+        tur.setheading(180)
+        tur.fd(20)
+        tur.setheading(270)
+        tur.pd()
+        tur.fd(30)
+        tur.setheading(0)
+        tur.fd(20)
+        tur.pu()
+        tur.right(180)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(60)
+        tur.setheading(0)
+        tur.fd(40)
     elif letter == "F":
-	    pass
+	tur.pd()
+        tur.fd(20)
+        tur.pu()
+        tur.setheading(180)
+        tur.fd(20)
+        tur.setheading(270)
+        tur.pd()
+        tur.fd(30)
+        tur.setheading(0)
+        tur.fd(20)
+        tur.setheading(180)
+        tur.fd(20)
+        tur.setheading(270)
+        tur.pd()
+        tur.fd(30)
     elif letter == "G":
-	    pass		
+	tur.setheading(150)
+        tur.pd()
+        tur.circle(20,270)
+        tur.setheading(90)
+        tur.fd(5)
+        tur.setheading(180)
+        tur.fd(20)
+        tur.pu()
+        tur.setheading(180)
+        tur.fd(30)
+        tur.setheading(90)
+        tur.fd(40)
+        tur.setheading(0)
+        tur.fd(50)			
     elif letter == "H":
 	    pass
     elif letter == "I":
@@ -57,7 +123,14 @@ def turtleLetter(letter,tur):
     elif letter == "K":
 	    pass
     elif letter == "L":
-	    pass
+	tur.right(90)
+        tur.fd(50)
+        tur.setheading(0)
+        tur.fd(30)
+        tur.pu()
+        tur.setheading(90)
+        tur.fd(50)
+        tur.setheading(0)
     elif letter == "M":
 	    pass
     elif letter == "N":
