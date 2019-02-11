@@ -307,19 +307,78 @@ def turtleLetter(letter,tur):
         
 	    
     elif letter == "S":
-	    pass
+	tur.setheading(0)
+        tur.pd()
+        tur.fd(20)
+        tur.pu()
+        tur.bk(20)
+        tur.right(90)
+        tur.pd()
+        tur.fd(12)
+        tur.left(90)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(18)
+        tur.right(90)
+        tur.fd(22)
+        #fixes
+        tur.pu()
+        tur.right(90)
+        tur.fd(30)
+        tur.right(90)
+        tur.fd(37)
     elif letter == "T":
-	    pass
+	tur.setheading(0)
+        tur.pd()
+        tur.fd(20)
+        tur.bk(10)
+        tur.right(90)
+        tur.fd(30)
+        #fixes
+        tur.pu()
+        tur.left(180)
+        tur.fd(30)
+        tur.right(90)
+        tur.fd(25)
     elif letter == "U":
-	    pass
+	tur.setheading(270)
+        tur.pd()
+        tur.fd(30)
+        tur.left(90)
+        tur.fd(20)
+        tur.left(90)
+        tur.fd(30)
+        #fixes
+        tur.pu()
+        tur.right(90)
+        tur.fd(15)
     elif letter == "V":
-	    pass
+	tur.setheading(300)
+        tur.pd()
+        tur.fd(35)
+        tur.left(120)
+        tur.fd(35)
+        #fixes
+        tur.pu()
+        tur.right(60)
+        tur.fd(15)
     elif letter == "W":
 	    pass
     elif letter == "X":
 	    pass
     elif letter == "Y":
-	    pass
+	tur.setheading(300)
+        tur.fd(20)
+        tur.right(30)
+        tur.fd(12)
+        tur.left(180)
+        tur.fd(12)
+        tur.right(30)
+        tur.fd(20)
+        #fixes
+        tur.pu()
+        tur.right(60)
+        tur.fd(15)
     elif letter == "Z":
         tur.setheading(0)
         tur.pd()
