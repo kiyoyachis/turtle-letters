@@ -195,7 +195,21 @@ def turtleLetter(letter,tur):
 
         
     elif letter == "J":
-	    pass
+        tur.setheading(0)
+        tur.pd()
+        tur.fd(20)
+        tur.bk(10)
+        tur.right(90)
+        tur.fd(30)
+        tur.right(90)
+        tur.fd(14)
+        tur.right(90)
+        tur.fd(12)
+        #fix
+        tur.pu()
+        tur.fd(18)
+        tur.right(90)
+        tur.fd(39)
     elif letter == "K":
 	    pass
     elif letter == "L":
