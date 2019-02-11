@@ -154,7 +154,22 @@ def turtleLetter(letter,tur):
         tur.right(90)
         tur.fd(15)		
     elif letter == "H":
-	    pass
+	 
+        tur.setheading(0)
+        tur.pd()
+        tur.right(90)
+        tur.fd(30)
+        tur.right(180)
+        tur.fd(15)
+        tur.right(90)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(15)
+        tur.right(180)
+        tur.fd(30)
+        tur.right(90)
+        tur.pu()
+        tur.fd(15)
     elif letter == "I":
         tur.setheading(0)
         tur.pd()
