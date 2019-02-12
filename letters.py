@@ -215,7 +215,25 @@ def turtleLetter(letter,tur):
         tur.right(90)
         tur.fd(39)
     elif letter == "K":
-	    pass
+	tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()
+        tur.fd(30)#40
+        tur.bk(15)#20
+        tur.left(145)
+        tur.fd(10)#20
+        tur.bk(10)#20
+        tur.right(110)
+        tur.fd(20)#25
+        tur.left(145)
+        tur.pu()
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(15)
+	    
+    
     elif letter == "L":
         tur.pd()
         tur.right(90)
@@ -229,9 +247,37 @@ def turtleLetter(letter,tur):
         tur.fd(15)
 
     elif letter == "M":
-	    pass
+	tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()
+        tur.fd(30)
+        tur.bk(30)
+        tur.left(20)
+        tur.fd(20)
+        tur.left(135)
+        tur.fd(20)
+        tur.right(155)
+        tur.fd(30)
+        tur.bk(30)
+        tur.pu()
+        tur.bk(5)
+        tur.left(90)
+        tur.fd(15)
     elif letter == "N":
-	    pass
+	tur.right(90)
+        tur.fd(30)
+        tur.bk(30)
+        tur.left(45)
+        tur.fd(45)
+        tur.left(135)
+        tur.fd(30)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(15)
+           
     elif letter == "O":
         tur.setheading(0)
         tur.pd()
@@ -278,7 +324,23 @@ def turtleLetter(letter,tur):
         #tur.right(180)
         #Oluschi: P, R, I, H, B, O, Z		
     elif letter == "Q":
-	    pass
+	tur.forward(30)
+        tur.right(90)
+        tur.forward(40)
+        tur.left(30)
+        tur.forward(10)
+        tur.right(180)
+        tur.forward(20)
+        tur.left(180)
+        tur.forward(10)
+        tur.setheading(180)
+        tur.forward(30)
+        tur.right(90)
+        tur.forward(40)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(50)
     elif letter == "R":
         tur.setheading(0)
         tur.right(90)
@@ -360,9 +422,34 @@ def turtleLetter(letter,tur):
         tur.right(60)
         tur.fd(15)
     elif letter == "W":
-	    pass
+        tur.right(60)
+        tur.forward(50)
+        tur.left(130)
+        tur.forward(50)
+        tur.right(135)
+        tur.forward(50)
+        tur.left(130)
+        tur.forward(50)
+        tur.right(50)
     elif letter == "X":
-	    pass
+	tur.pu()
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(30)
+        tur.pd()
+        tur.left(45)
+        tur.fd(20)
+        tur.bk(60)
+        tur.fd(30)
+        tur.left(90)
+        tur.fd(30)
+        tur.bk(60)
+        tur.left(45)
+        tur.pu()
+        tur.fd(55)
+        tur.right(90)
+        tur.fd(50)
+        tur.fd(15)
     elif letter == "Y":
         tur.setheading(300)
         tur.pd()
