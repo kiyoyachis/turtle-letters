@@ -1,7 +1,7 @@
 # turtle-letters
 Oluschi: P, R, I, H, B, O, Z (done)
 
-Eli: W, Q, X, K, M, N
+Eli: W, Q, X, K, M, N (done)
 
 Lauren: C, D, E, F, G, L (done)
 
