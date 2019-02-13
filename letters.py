@@ -182,7 +182,25 @@ def turtleLetter(letter,tur):
     elif letter == "J":
 	    pass
     elif letter == "K":
-	    pass
+	tur.setheading(0)
+        tur.pd()
+        tur.right(90)
+        tur.fd(30)
+        tur.left(180)
+        tur.fd(15)
+        tur.right(45)
+        tur.fd(20)
+        tur.pu()
+        tur.right(135)
+        tur.fd(30)
+        tur.right(145)
+        tur.pd()
+        tur.fd(25)
+        tur.pu()
+        tur.right(90)
+        tur.fd(20)
+        tur.right(40)
+        tur.fd(15)
     elif letter == "L":
 
 	      tur.right(90)
